@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Legend of Zelda: Rupee Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+  <!-- FONTS - "THE LEGEND OF" -->
+	<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="zelda-container">
+		<div class="background-holder"></div>
+		<div class="stage">
+			<div class="triangle one">
+				<figure class="front"></figure>
+				<figure class="back"></figure>
+				<figure class="side1"></figure>
+				<figure class="side2"></figure>
+				<figure class="side3"></figure>
+			</div>
+			<div class="triangle two">
+				<figure class="front"></figure>
+				<figure class="back"></figure>
+				<figure class="side1"></figure>
+				<figure class="side2"></figure>
+				<figure class="side3"></figure>
+			</div>
+			<div class="triangle three">
+				<figure class="front"></figure>
+				<figure class="back"></figure>
+				<figure class="side1"></figure>
+				<figure class="side2"></figure>
+				<figure class="side3"></figure>
+			</div>
+		</div>
+		<div class="zeldatext">
+			<h2>The legend of
+			<h1><span class="z">Z</span>EL<span class="closer">DA</span></h1>
+			<h3>Rupee Collector</h3>
+			<h4>Click to start</h4>
+		</div>
+	</div>
+
+	<div class="game-container">
+		<div class="gamebg-holder"></div>
+		<div class="zelda-main zelda-text">
+			<p>Ganon has changed all the Rupee colors! Now nobody knows how much each Rupee is worth!</p>
+			<p>Try to determine how much each Rupee is as you buy items throughout your adventure. </p>
+			<p>The shopkeep knows how much each Rupee is, but he won't tell you. Be careful not to overpay for your items!</p>
+			<p>Good luck, Link!</p>
+		</div>
+		<div class="rupees">
+			<img id="green" src="assets/images/greenRupee.png">
+			<img id="blue" src="assets/images/blueRupee.png">
+			<img id="red" src="assets/images/redRupee.png">
+			<img id="purple" src="assets/images/purpleRupee.png">
+		</div>
+		<div class="zelda-cost zelda-text">
+			<h5 class="zelda-header">Cost:</h5>
+			<h5 class="zelda-number"><span id="ran-num">...</span></h5>
+		</div>
+		<div class="zelda-text zelda-score">
+			<h5 class="zelda-header">Wins:</h5>
+			<h5 class="zelda-number"><span id="win">...</span></h5>
+			<h5 class="zelda-header">Losses:</h5>
+			<h5 class="zelda-number"><span id="lose">...</span></h5>
+		</div>
+		<div class="zelda-text zelda-bag">
+			<h5 class="zelda-header">Bag:</h5>
+			<h5 class="zelda-number"><span id="bag">...</span></h5>
+		</div>
+	</div>
+
+</body>
+</html>
