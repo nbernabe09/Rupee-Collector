@@ -151,6 +151,7 @@ p {
   top: 290px;
   text-align: center;
   width: 100%;
+  animation: showZeldaText 13s linear;
 }
 .zeldatext h2 {
   top: 30px;
