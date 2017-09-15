@@ -9,3 +9,7 @@ https://nbernabe09.github.io/Rupee-Collector
 - CSS
 - JavaScript
 - jQuery
+
+### Special Thanks
+- [Donovan Hutchinson](https://codepen.io/donovanh/) for the intro
+- Nintendo
